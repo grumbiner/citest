@@ -36,6 +36,7 @@ jobs:
           echo test, and deploy your project.
       - name: Compile and execute
         run: |
-          g++ hello.c -o hello
+          #g++ hello.c -o hello
+          make
           ./hello
  
